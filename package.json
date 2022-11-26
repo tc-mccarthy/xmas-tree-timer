@@ -4,6 +4,7 @@
   "main": "index.js",
   "repository": "git@github.com:tc-mccarthy/xmas-tree-timer.git",
   "author": "TC McCarthy <tc.mccarthy1@gmail.com>",
+  "description": "Authored as a solution for a Bradford exchange christmas tree that only ran for 60 minutes. This power cycles the tree on a cron schedule via the smart outlet in which it is plugged",
   "license": "MIT",
   "dependencies": {
     "tplink-smarthome-api": "^4.2.0"
