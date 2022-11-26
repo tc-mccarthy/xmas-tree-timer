@@ -1,0 +1,11 @@
+{
+  "name": "xmas-tree-timer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:tc-mccarthy/xmas-tree-timer.git",
+  "author": "TC McCarthy <tc.mccarthy1@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "tplink-smarthome-api": "^4.2.0"
+  }
+}
