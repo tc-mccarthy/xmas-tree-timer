@@ -17,6 +17,7 @@ async function run() {
 
     // if the plug is on, turn it off for 5 seconds and then turn it back on
     if (status.relay_state) {
+      console.log(new Date());
       console.log("Outlet is on, cycling power");
       await plug.setPowerState(false);
       console.log(`Waiting ${timeout} seconds`);
