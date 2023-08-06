@@ -12,7 +12,6 @@ async function run() {
   try {
     const client = new Client();
     const plug = await client.getDevice({ host: "172.16.3.27" });
-    console.log("Found plug:", plug);
     const status = await plug.getSysInfo();
 
     // if the plug is on, turn it off for 5 seconds and then turn it back on
