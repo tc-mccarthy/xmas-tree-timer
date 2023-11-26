@@ -11,7 +11,7 @@ function timer(sec) {
 async function run() {
   try {
     const client = new Client();
-    const plug = await client.getDevice({ host: "172.16.3.18" });
+    const plug = await client.getDevice({ host: "172.16.3.13" });
     const status = await plug.getSysInfo();
     const timeout = 1;
     
